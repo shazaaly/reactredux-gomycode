@@ -22,6 +22,13 @@
   font-weight: bold;
 }
 
-button{
+button {
   margin-right: 1rem;
+}
+
+.counter :last-child {
+  display: block;
+  position: relative;
+  top: 0.8rem;
+  left: 15rem;
 }
