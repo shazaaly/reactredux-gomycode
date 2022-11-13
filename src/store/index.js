@@ -18,7 +18,7 @@ const counterSlice = createSlice({
 
         },
         increase(state, action) {
-            state.count = state.count + action.amount
+            state.count = state.count + action.payload
 
         },
         toggle(state) {
